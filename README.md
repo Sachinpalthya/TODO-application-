@@ -25,3 +25,60 @@ Packages Used:
 >>>body-parser: Parses incoming request bodies
 >>>express-validator: Validates request data
 
+TO Run Prisma migration:
+>>><npx prisma migrate dev --name init> we use this command to run the prizma.
+
+To Generate Prisma client:
+
+>>><npx prisma generate>
+
+To Run the server:
+
+>>><node server.js>
+
+To Deploy the Backend
+
+>>>Render (Free & Easy): https://render.com
+
+
+To Run migration:
+>>><npx prisma migrate deploy>
+
+Steps to Integrate Next.js Frontend
+>>>1.Setup Next.js Project
+
+>>>2.Install Dependencies
+
+>>>3.Create UI Components
+
+>>>4.Connect API Endpoints
+
+>>>5.Add CRUD Functionality
+
+>>>6.Run & Test Frontend
+
+
+Setup Next.js Project
+Navigate to your working directory and create a Next.js app:
+
+<npx create-next-app@latest todo-frontend>
+<cd todo-frontend> using this folders we can add the directory of the frontend folder and we can install the packages in it.
+
+To Install dependensies we use this command 
+>>><npm install axios @mui/material @emotion/react @emotion/styled react-icons>
+
+
+Dependencies Used
+>>>axios: To make API calls
+
+>>>@mui/material: UI components
+
+>>>@emotion/react & @emotion/styled: Styling for MUI components
+
+>>>react-icons: Icons for buttons
+
+To Start/run  the frontend:
+
+>>><npm run dev>
+
+
